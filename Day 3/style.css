@@ -1,0 +1,35 @@
+/* *{
+    background-color: yellow;
+    
+} */
+/* Class Selector */
+.one{
+    color: #818283;
+    font-size: 70px;
+}
+/* Tag/Element Selector */
+/* p{
+    color: aqua;
+} */
+
+/* Id selector */
+#two{
+    background-color: yellow;
+    color: red;
+}
+
+/* Group Selector */
+#two, ol {
+    font-size: 20px;
+    color: White;
+    background-color: black;
+}
+
+/*  */
+
+.border{
+    border: 7px solid red;
+    font-size: 25px;
+    margin: 100px;
+    padding: 100px;
+}
