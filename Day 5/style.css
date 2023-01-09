@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    margin: 0 34px;
+    padding: 8px;
+}
+
+.header_nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header_nav-logo{
+    width: 240px;
+}
+
+.header_nav-items{
+    display: flex;
+    gap:25px;
+    align-items: center;
+}
+.header_nav-item a{
+    color: orange;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.header_nav-item a:hover{
+    color: green;
+    text-decoration: underline;
+}
+/* MAIN */
+/* Section 1 */
+.hero{
+    display: flex;
+    padding-top: 64px;
+    padding-bottom: 64px ;
+    justify-content: space-between;
+    align-items: center;
+}
+.main_text{
+    width: 700px;
+}
+
+.main_img img{
+    width: 700px;
+}
+
+.main_text-heading{
+    font-size: 43px;
+    color: #818181;
+}
+
+/* Section 2=>CARD */
+
+.showcase{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.showcase_cards h3{
+    color: #818181;
+    font-weight: 500;
+    margin-top: 7px;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+    padding: 16px;
+}
+.footer_text{
+    text-align: center;
+}
